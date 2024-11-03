@@ -1,0 +1,72 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: "Sriracha", serif;
+}
+
+body {
+  background-image: linear-gradient(to top, orange
+  ,black
+  );
+}
+
+header {
+      height: 150px;
+      margin-bottom: 4px;
+}
+
+header > h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+header > p {
+      text-align: center;
+      color: white;
+      padding-top: 15px;
+      font-style: bolder;
+      font-size: 28px;
+}
+
+main {
+   background-color: black;
+   margin: auto;
+   width: 78vw;
+   border-radius: 8px 8px 8px 8px;
+   margin-bottom: 10px;
+   box-shadow: 3px 3px 3px black;
+}
+
+main > article > p {
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    padding: 15px;
+}
+
+div > video {
+    width: 77vw;
+    height: 60vh;
+}
+
+footer {
+   background-color: black;
+}
+
+footer > h1 {
+   color: white;
+   text-align: center;
+}
+
+footer > ul {
+   color: white;
+   text-align: center;
+   list-style-position: inside;
+   columns: 2;
+   font-size: 20px;
+}
