@@ -36,7 +36,7 @@ header > p {
 main {
    background-color: black;
    margin: auto;
-   width: 78vw;
+   width: 70vw;
    border-radius: 8px 8px 8px 8px;
    margin-bottom: 10px;
    box-shadow: 3px 3px 3px black;
@@ -60,9 +60,16 @@ footer {
    background-color: black;
 }
 
+footer > p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
 footer > h1 {
    color: white;
    text-align: center;
+   font-size: 25px;
 }
 
 footer > ul {
