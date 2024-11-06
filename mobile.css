@@ -11,27 +11,66 @@ main {
 }
 
 div > video {
-     width: 97vw;
-     height: 60vh;
+     width: 90.2vw;
+     height: 50vh;
 }
 
 header {
-     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.151), orange);
-  
+    
+     margin: 0px;
+     width: 100vw;
+     margin: auto;
+     margin-bottom: 10px;
+    
+     
+}
+
+header > h1, p {
+    padding-top: 20px;
 }
 
 header > h1 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 header > p {
-    font-size: 20px;
+    font-size: 30px;
+}
+
+main {
+     border-radius: 8px 8px 8px 8px;
+     margin: auto;
+     width: 90vw;
+     margin-bottom: 20px;
 }
 
 main > article > p {
     font-size: 20px;
 }
 
+footer {
+      height: 68vh;
+}
+
 footer > p {
      font-size: 21px;
 }
+
+footer > h2 {
+     text-align: center;
+     color: white;
+}
+
+.personalizado {
+     padding-top: 10px;  
+
+}
+
+.imagem2:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(132, 4, 158, 0.705);
+    transition: transform 0.3s;
+    transition: border 1s;
+    border-radius: 20px;
+}
+

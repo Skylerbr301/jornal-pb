@@ -9,18 +9,28 @@
 }
 
 body {
-  background-image: linear-gradient(to top, orange
-  ,black
-  );
+   background-image: linear-gradient(to bottom,#0477BF,#F2BB13, #03A62C, #F2F2F2);
+}
+
+img#imagem {
+      text-align: center;
+      border-radius: 100%;
+      width: 150px;
+      padding-top: 10px;
 }
 
 header {
-      height: 150px;
+      height: 300px;
       margin-bottom: 4px;
 }
 
+header > h1, p {
+      text-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.473);
+      
+}
+
 header > h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     text-align: center;
 }
@@ -28,10 +38,11 @@ header > h1 {
 header > p {
       text-align: center;
       color: white;
-      padding-top: 15px;
+      padding-top: 2px;
       font-style: bolder;
-      font-size: 28px;
-}
+      font-size: 30px;
+   
+ }
 
 main {
    background-color: black;
@@ -39,7 +50,7 @@ main {
    width: 77vw;
    border-radius: 8px 8px 8px 8px;
    margin-bottom: 10px;
-   box-shadow: 3px 3px 3px black;
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
 }
 
 main > article > p {
@@ -78,4 +89,18 @@ footer > ul {
    list-style-position: inside;
    columns: 2;
    font-size: 20px;
+}
+
+.personalizado {
+   padding-top: 10px;  
+   color: white;
+   text-align: center;
+}
+
+.imagem2:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(132, 4, 158, 0.705);
+  transition: transform 0.3s;
+  transition: border 1s;
+  border-radius: 20px;
 }
