@@ -34,7 +34,7 @@ header > h1 {
 }
 
 header > p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 main {
@@ -49,7 +49,7 @@ main > article > p {
 }
 
 footer {
-      height: 68vh;
+      height: 85vh;
 }
 
 footer > p {
