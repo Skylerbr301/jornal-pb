@@ -25,6 +25,9 @@ header {
      
 }
 
+header > h1, p {
+    padding-top: 7px;
+}
 
 header > h1 {
     font-size: 30px;
@@ -66,4 +69,5 @@ footer > h2 {
     transition: border 1s;
     border-radius: 20px;
 }
+
 
