@@ -57,17 +57,4 @@ footer > h2 {
      color: white;
 }
 
-.personalizado {
-     padding-top: 10px;  
-
-}
-
-.imagem2:hover {
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(132, 4, 158, 0.705);
-    transition: transform 0.3s;
-    transition: border 1s;
-    border-radius: 20px;
-}
-
 

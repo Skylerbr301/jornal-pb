@@ -59,7 +59,7 @@ main > article > p {
     color: white;
     padding: 15px;
     text-align: center;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
 
 div > video {
